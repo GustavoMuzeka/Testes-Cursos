@@ -1,13 +1,15 @@
-/* 1) Escreva um algoritmo que armazene o valor 10 em uma variável A e o valor 20 em uma variável B.
-A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o
-valor que está em A passe para B e vice-versa. Ao final, escrever os valores que ficaram armazenados
-nas variáveis. */
+function FizzBuzz(){
+    for(i = 0; i < 100; i++ ){
+        if(i%3 == 0 && i%5 != 0){
+            console.log('Fizz',i)
+        }else if (i%5 == 0 && i%3 != 0 ){
+            console.log('Buzz',i)
+        }else if (i%3 == 0 && i%5 == 0){
+            console.log('FizzBuzz',i)
+        }else{
+            console.log(i)
+        }
+    }
+}
 
-let a = 10
-let b = 20
-
-c = a 
-a = b 
-b = c
-
-console.log(a, b)
+FizzBuzz()

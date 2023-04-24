@@ -2,6 +2,5 @@
 
 function layEggs(quantity:number, color:string) {
     console.log(`You just laid ${quantity} ${color} eggs. Good job!`);
-  }
-
+}
   layEggs(10,'Blue');
