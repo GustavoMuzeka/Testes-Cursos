@@ -10,6 +10,7 @@
 }
 
 body {
+  text-align: center;
   margin: 0;
   padding: 0;
   background: var(--primary-color);
@@ -56,3 +57,9 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+.relogio{
+  font-size: 3em;
+  text-align: center;
+}
+
