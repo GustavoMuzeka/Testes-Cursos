@@ -1,4 +1,1 @@
-# Meus Primeiros passos no GIT/GITHUB
- Primeiro repositório GITHUB
-
-Criado para testes
+Repositório utilizado para testes e treinamentos. 
